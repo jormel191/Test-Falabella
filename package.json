@@ -1,0 +1,16 @@
+{
+  "name": "Test-falabella-financiero",
+  "version": "1.0.0",
+  "description": "Falabella' test",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+
+  "author": "jormel",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}

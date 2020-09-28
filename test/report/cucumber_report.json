@@ -1,0 +1,258 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-28T20:42:07.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11422539900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumgluecode.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "select a product at falabella",
+        "description": "",
+        "id": "i-found-it-at-falabella;select-a-product-at-falabella;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 793772800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumgluecode.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63004400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the page falabella",
+            "match": {
+              "location": "seleniumgluecode.test.UserIsOnPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2502002300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user types name of a \"consola\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"consola\"",
+                  "offset": 21
+                }
+              ],
+              "location": "seleniumgluecode.test.TypeProductSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2703998700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "is redirected to the videogames section",
+            "match": {
+              "location": "seleniumgluecode.test.RedirectSection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1696999700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects \"Xbox One S 1TB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Xbox One S 1TB\"",
+                  "offset": 13
+                }
+              ],
+              "location": "seleniumgluecode.test.SelectProduct(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6168583700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects add to bag and increases to two products",
+            "match": {
+              "location": "seleniumgluecode.test.AggBagAndIncreases()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2286495500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects extended \"2 Años $ 32.990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 Años $ 32.990\"",
+                  "offset": 22
+                }
+              ],
+              "location": "seleniumgluecode.test.SelectsWarranty(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12074766200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "is redirected to the summary of your order",
+            "match": {
+              "location": "seleniumgluecode.test.RedirectSummary()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 262000700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects go purchase",
+            "match": {
+              "location": "seleniumgluecode.test.SelectsPurchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2434133500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user chooses dispatch options \"REGION METROPOLITANA\" and \"SANTIAGO CENTRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"REGION METROPOLITANA\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"SANTIAGO CENTRO\"",
+                  "offset": 57
+                }
+              ],
+              "location": "seleniumgluecode.test.SelectDispatch(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3361959600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user chooses option pick up purchase",
+            "match": {
+              "location": "seleniumgluecode.test.SelectPickUpPurchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2637208800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects store and continue",
+            "match": {
+              "location": "seleniumgluecode.test.SelectStore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5716968300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user selects \"Débito y efectivo\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Débito y efectivo\"",
+                  "offset": 13
+                }
+              ],
+              "location": "seleniumgluecode.test.SelectPaymentMethod(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1658279000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user completes information \"juan\"\"perez\"\"juan.perez@gmail.com\"\"269961414\"\"965330978\" and reserves the purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"juan\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"perez\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"juan.perez@gmail.com\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"269961414\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"965330978\"",
+                  "offset": 73
+                }
+              ],
+              "location": "seleniumgluecode.test.DoBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I found it at falabella",
+    "description": "  As a user I want to buy a product at falabella.",
+    "id": "i-found-it-at-falabella",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/test.feature",
+    "tags": []
+  }
+]
